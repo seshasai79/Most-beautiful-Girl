@@ -2,56 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Show GitHub Image on Click</title>
+    <title>Cutest Girl</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #fff0f5;
             text-align: center;
-            padding: 50px;
+            padding: 100px 20px;
         }
 
         h1 {
-            color: #333;
+            color: #d63384;
+            font-size: 28px;
+            margin-bottom: 50px;
         }
 
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: white;
+        .heart-button {
+            font-size: 50px;
+            background: none;
             border: none;
-            border-radius: 5px;
             cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s;
+            transition: transform 0.2s;
         }
 
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        #myImage {
-            display: none;
-            margin-top: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            max-width: 90%;
-            height: auto;
+        .heart-button:hover {
+            transform: scale(1.2);
         }
     </style>
 </head>
 <body>
-    <h1>Click the Button to Display the Picture</h1>
-    <button onclick="showImage()">Show Picture</button>
-
-    <br>
-    <img id="myImage" src="https://github.com/seshasai79/Most-beautiful-Girl/blob/main/DP.jpg?raw=true" alt="My GitHub Image">
-
-    <script>
-        function showImage() {
-            document.getElementById('myImage').style.display = 'block';
-        }
-    </script>
+    <h1>Wanna see the cutest Girl I have seen? Click the below heart!!!</h1>
+    <a href="page2.html">
+        <button class="heart-button">❤️</button>
+    </a>
 </body>
 </html>
